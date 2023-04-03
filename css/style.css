@@ -1,0 +1,85 @@
+.dotted {
+	     border-style:dotted;
+		} 
+	 .dashed {
+		   border-style:dashed;
+		   }
+	 .solid {
+           border-style:solid;
+         }		   
+	 .double {
+           border-style:double;
+        }
+     .ridge {
+          border-style:ridge;
+         }	
+      .inset {
+          border-style:inset;
+          }
+	  .outset {
+         border-style:outset;
+         }
+	 .hidden {
+         border-style:hidden;
+        }		 
+     .none {
+          border-style:none;
+        }
+	.all {
+        border-style:double dashed solid ridge;
+      } 		
+	.one {
+        border-style:dotted;
+        border-color:red;
+        }
+      .two {
+         border-style:dashed;
+         border-width:5px;
+		 border-color:green;
+		} 
+		.three {
+		  border-style:double;
+		  border-width:thick;
+		  border-color:blue;
+		}
+       .four {
+        border-style:ridge;
+        border-width:medium;
+        border-color:violet;
+       }
+       .sol {
+        border-style:solid;
+        border-width:5px 10px;
+      }  		
+	 .dou {
+         border-style:double;
+         border-width:10px 20px 5px;
+         border-color:pink;
+       }	
+     .das {
+         border-style:dashed;
+         border-width:5px 6px 7px 8px;
+         border-color:green;
+       }
+      .diff {
+        border-top-style:dashed;
+        border-width:11px;
+        border-right-style:double;
+        border-width:7px;
+        border-bottom-style:ridge;
+		border-width:12px;
+        border-left-style:solid;
+		border-width:13px;
+		border-color:red;
+       }
+     .ini {
+         border-top:5px double green;
+		 border-right:3px dotted blue;
+		 border-bottom:6px dashed orange;
+		 border-left:4px solid violet;
+       }		 
+	 .rnd {
+         border:dashed 5px red;
+         border-radius:5px;
+         border-padding:5px;
+       }		 
